@@ -1,0 +1,6 @@
+resources:
+  - name: myAppRepo
+    type: GitRepo
+    configuration:
+      gitProvider: GitHub               # Change to your integration
+      path: austindev4/jfrog-pipelines-test                 # Change to your repo
